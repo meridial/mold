@@ -1,6 +1,11 @@
 const std = @import("std");
 // set available colors here
-var clschm = [_]usize{ 0xf2cdcd, 0xcba6f7, 0xb4befe, 0xbac2de, 0x1e1e2e, 0x11111b };
+var clschm = [_]usize{
+    0xf2cdcd,
+    0xcba6f7,
+    0xc4beff,
+    0x11111b,
+};
 
 // who cares abt the MSB
 inline fn diff(a: usize, b: usize) usize {
